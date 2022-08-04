@@ -1,0 +1,19 @@
+/* ==== HEADER ==== */
+#header{
+
+}
+
+#sidebar{
+    width:100%;
+    background-color:#150050;
+}
+
+#sidebar.hidden{
+    display:none;
+}
+
+/* ==== Hidden in Mobile View ==== */
+#update-buttons-desktop{
+    display:none;
+}
+

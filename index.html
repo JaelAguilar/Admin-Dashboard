@@ -6,12 +6,14 @@
         <meta name="viewport" content="width=
             , initial-scale=1.0">
         <title>Admin Dashboard</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/mobile-view.css">
+        <link rel="stylesheet" href="css/desktop-view.css">
     </head>
     <body>
         <div id="layout">
             <div id="header">
                 <div>
+                    <button id="toggle-sidebar"></button>
                     <div id="search"></div>
                     <div id="header-user">
                         <div id="notifications"></div>
@@ -33,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div id="sidebar">
+            <div id="sidebar" class="hidden">
                 <div id="sidebar-title">
                     <img src="" alt="" class="logo">
                     <div>Dashboard</div>
