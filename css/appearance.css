@@ -1,0 +1,29 @@
+/* ==== Variables ==== */
+:root {
+    --surfaceColor: #121212;
+    --primaryColor: #a8b4f4;
+    --secondaryColor: #a7eba4;
+    --cardColor: #ffffff09;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* ==== General Appearance ==== */
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: var(--surfaceColor);
+    color: var(--primaryColor);
+
+}
+
+#sidebar,
+.card {
+    background-color: var(--cardColor);
+}
+
+#sidebar {
+    background-color: #ffffff16;
+}
