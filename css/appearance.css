@@ -6,7 +6,7 @@
     --cardColor: #ffffff09;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 
 /* ==== General Appearance ==== */
 :root {
@@ -16,10 +16,13 @@
 body {
     background-color: var(--surfaceColor);
     color: white;
+    font-size: 16px;
 }
 
 h1{
     color:var(--primaryColor);
+    font-size:18px;
+    font-weight:500;
 }
 h3,h4{
     color:var(--secondaryColor);
