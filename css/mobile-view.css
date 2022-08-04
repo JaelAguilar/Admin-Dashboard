@@ -1,3 +1,16 @@
+/* ==== Variables ==== */
+:root{
+    --surfaceColor:#121212;
+    --primaryColor:#a8b4f4;
+    --secondaryColor:#a7eba4;
+}
+
+/* ==== General Appearance ==== */
+body{
+    background-color:var(--surfaceColor);
+    color:var(--primaryColor);
+}
+
 /* ==== HEADER ==== */
 #header{
 
@@ -6,14 +19,11 @@
 #sidebar{
     width:100%;
     background-color:#150050;
-}
-
-#sidebar.hidden{
-    display:none;
+    color:white;
 }
 
 /* ==== Hidden in Mobile View ==== */
-#update-buttons-desktop{
+#update-buttons-desktop, #sidebar.hidden,#username{
     display:none;
 }
 
