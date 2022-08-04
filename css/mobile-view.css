@@ -1,3 +1,8 @@
+/* ==== General ==== */
+h1{
+    margin:15px 5%;
+    text-align:center;
+}
 
 /* ==== HEADER ==== */
 #header{
@@ -6,6 +11,18 @@
 
 #sidebar{
     width:100%;
+}
+
+/* ==== CONTENT ==== */
+#project-grid, #announcements-grid,#trending-grid{
+    display:grid;
+    gap:20px;
+}
+.card{
+    padding:5%;
+    margin:0 5%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* ==== Hidden in Mobile View ==== */
