@@ -6,7 +6,7 @@
     --cardColor: #ffffff09;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 /* ==== General Appearance ==== */
 :root {
@@ -15,8 +15,15 @@
 
 body {
     background-color: var(--surfaceColor);
-    color: var(--primaryColor);
+    color: white;
+}
 
+h1{
+    color:var(--primaryColor);
+}
+h3,h4{
+    color:var(--secondaryColor);
+    font-weight:600;
 }
 
 #sidebar,
