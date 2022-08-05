@@ -9,8 +9,11 @@ button{
     border-radius:20%;
     border:0;
 }
-img{
-    display:block;
+
+/* Image buttons */
+#toggle-sidebar, #notifications{
+    background: none;
+    width: 50px;
 }
 
 /* ==== LAYOUT ==== */
@@ -22,14 +25,12 @@ img{
 #header{
 
 }
-#toggle-sidebar {
-    background:none;
-}
 #search{
     display:flex;
     background-color:white;
     border-radius:10px;
     padding:5px 10px;
+    min-width:220px
 }
 #search img{
     width:30px;
