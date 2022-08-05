@@ -11,10 +11,10 @@ button{
 }
 
 /* Image buttons */
-#toggle-sidebar, #notifications, #user-photo{
+#toggle-sidebar, #user-photo{
     background: none;
-    width: 50px;
-    height:50px;
+    width: 45px;
+    height:45px;
 }
 
 /* ==== LAYOUT ==== */
@@ -26,18 +26,30 @@ button{
 #header{
 
 }
+#header >:first-child{
+    display:grid;
+    grid-template-columns:50px 1fr 50px;
+    grid-template-rows:0fr;
+    align-items: center;
+    justify-items: center;
+}
+
 #search{
     display:flex;
-    background-color:white;
     border-radius:10px;
-    padding:5px 10px;
-    min-width:220px
+    padding:5px 5px;
+    height:30px;
+    align-items: center;
 }
 #search img{
-    width:30px;
+    width:20px;
+    height:20px;
 }
 #search input{
     flex-grow:1;
+    font-size: 16px;
+    height: 16px;
+    width:80%;
 }
 
 #user-photo {
@@ -70,7 +82,7 @@ button{
 }
 
 /* ==== Hidden in Mobile View ==== */
-#update-buttons-desktop,.hidden,#username{
+#update-buttons-desktop,.hidden,#username,#notifications{
     display:none;
 }
 
