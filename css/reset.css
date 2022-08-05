@@ -138,3 +138,6 @@ input{
     border:none;
     outline:none;
 }
+img{
+    display:block;
+}
