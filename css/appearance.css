@@ -1,6 +1,7 @@
 /* ==== Variables ==== */
 :root {
     --surfaceColor: #121212;
+    --secondSurfaceColor:#ffffff16;
     --primaryColor: #a8b4f4;
     --secondaryColor: #a7eba4;
     --cardColor: #ffffff09;
@@ -35,5 +36,5 @@ h3,h4{
 }
 
 #sidebar {
-    background-color: #ffffff16;
+    background-color: var(--secondSurfaceColor);
 }

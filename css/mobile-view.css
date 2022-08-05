@@ -1,12 +1,29 @@
 /* ==== General ==== */
 h1{
-    margin:15px 5%;
+    margin:30px 5% 15px;
     text-align:center;
+}
+
+button{
+    padding:0;
+    border-radius:20%;
+    border:0;
+}
+img{
+    display:block;
+}
+
+/* ==== LAYOUT ==== */
+#layout{
+    margin:5% 5%;
 }
 
 /* ==== HEADER ==== */
 #header{
 
+}
+#toggle-sidebar {
+    background:none;
 }
 
 #sidebar{
@@ -20,7 +37,6 @@ h1{
 }
 .card{
     padding:5%;
-    margin:0 5%;
     text-align: justify;
     text-justify: inter-word;
 }
