@@ -10,7 +10,8 @@
     }
 
     /* ==== Hidden in Desktop View ==== */
-    #toggle-sidebar {
+    #toggle-sidebar,
+    #update-buttons-mobile {
         display: none;
     }
 }
