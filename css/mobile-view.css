@@ -8,15 +8,25 @@ button{
     padding:0;
     border-radius:20%;
     border:0;
+    align-items : center;
+}
+button img{
+    height:100%;
 }
 
 /* Image buttons */
-#toggle-sidebar, #user-photo{
+#toggle-sidebar,
+#user-photo{
     background: none;
     width: 45px;
     height:45px;
 }
 
+#update-buttons-mobile>button{
+    width: 42px;
+    height:42px;
+    border-radius:50%;
+}
 
 /* ==== HEADER ==== */
 #header{
