@@ -30,6 +30,7 @@ h3,h4{
     font-weight:600;
 }
 
+/* ==== Specific Appearance ==== */
 #sidebar,
 .card {
     background-color: var(--cardColor);
@@ -37,4 +38,8 @@ h3,h4{
 
 #sidebar {
     background-color: var(--secondSurfaceColor);
+}
+
+#user-photo{
+    background-color:var(--secondSurfaceColor);
 }
