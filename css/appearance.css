@@ -31,12 +31,11 @@ h3,h4{
 }
 
 /* ==== Specific Appearance ==== */
-#sidebar,
 .card {
     background-color: var(--cardColor);
 }
 
-#sidebar {
+#sidebar,#header {
     background-color: var(--secondSurfaceColor);
 }
 

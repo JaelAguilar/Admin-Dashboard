@@ -1,6 +1,6 @@
 /* ==== General ==== */
 h1{
-    margin:30px 5% 15px;
+    margin:2% 5% 15px;
     text-align:center;
 }
 
@@ -17,14 +17,10 @@ button{
     height:45px;
 }
 
-/* ==== LAYOUT ==== */
-#layout{
-    margin:5% 5%;
-}
 
 /* ==== HEADER ==== */
 #header{
-
+    padding:5% 5vw 5px;
 }
 #header >:first-child{
     display:grid;
@@ -40,6 +36,7 @@ button{
     padding:5px 5px;
     height:30px;
     align-items: center;
+    width:100%;
 }
 #search img{
     width:20px;
@@ -71,6 +68,10 @@ button{
 }
 
 /* ==== CONTENT ==== */
+#content{
+    margin:5vw 5vw;
+}
+
 #project-grid, #announcements-grid,#trending-grid{
     display:grid;
     gap:20px;
