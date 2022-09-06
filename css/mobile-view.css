@@ -106,6 +106,16 @@ button img{
     border-radius:20px;
 }
 
+.card-icons{
+    display:flex;
+    gap:5px;
+    width:100%;
+    justify-content:right;
+}
+.card-icons img{
+    width:30px;
+}
+
 /* ==== Hidden in Mobile View ==== */
 #update-buttons-desktop,.hidden,#username,#notifications{
     display:none;
