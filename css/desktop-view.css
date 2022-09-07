@@ -4,19 +4,23 @@
         display:grid;
         grid-template: 100px 1fr/20% 1fr;
     }
-
-    /* ==== HEADER ==== */
-    #header{
+    #header {
         grid-area: 1/2/2/-1;
     }
+    #sidebar {
+        grid-area: 1/1/-1/2;
+    }
+    #content {
+        grid-area: 2/2/-1/-1;
+    }
+
+    /* ==== HEADER ==== */
+   
     /* ==== SIDEBAR ==== */
-    #sidebar{
-        grid-area:1/1/-1/2;
-    }
+    
     /* ==== CONTENT ==== */
-    #content{
-        grid-area:2/2/-1/-1;
-    }
+    
+
     /* ==== Shown in Desktop View ==== */
     #sidebar.hidden{
         display:block;
