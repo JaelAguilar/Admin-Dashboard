@@ -19,7 +19,17 @@
     /* ==== SIDEBAR ==== */
     
     /* ==== CONTENT ==== */
-    
+    #content{
+        display:grid;
+        grid-template: fit-content(60px) 1fr fit-content(60px) 1fr / 3fr 1fr;
+    }
+
+    #project-header{
+        grid-area:1/1/2/2;
+    }
+    #project-grid{
+        grid-area:2/1/-1/2;
+    }
 
     /* ==== Shown in Desktop View ==== */
     #sidebar.hidden{
