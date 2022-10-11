@@ -22,6 +22,9 @@
     #content{
         display:grid;
         grid-template: fit-content(60px) 1fr fit-content(60px) 1fr / 3fr 1fr;
+        margin:0;
+        padding:20px;
+        gap:20px;
     }
 
     #project-header{
@@ -29,6 +32,10 @@
     }
     #project-grid{
         grid-area:2/1/-1/2;
+        grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    }
+    .card{
+        height:fit-content;
     }
 
     /* ==== Shown in Desktop View ==== */
