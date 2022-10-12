@@ -48,3 +48,6 @@ h3,h4{
 #update-buttons-mobile>button{
     background: var(--secondaryColor);
 }
+#trending-grid .card{
+    border-top:1px solid var(--primaryColor);
+}

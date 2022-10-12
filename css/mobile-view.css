@@ -116,6 +116,32 @@ button img{
     width:30px;
 }
 
+#trending-grid{
+    gap:0;
+}
+#trending-grid .card{
+    grid-template: auto auto / 70px 1fr; 
+    gap: 5px;
+    border-radius:0;
+    padding:20px 50px;
+}
+#trending-grid .card:first-child{
+    border-radius:1.5vw 1.5vw 0 0;
+    padding-top:25px;
+    border-top:none;
+}
+#trending-grid .card:last-child {
+    border-radius: 0 0 1.5vw 1.5vw;
+    padding-bottom:25px;
+}
+#trending-grid .card img{
+    grid-area:1/1/-1/2;
+    width:70px;
+}
+#trending-grid h4{
+    padding-top:15px;
+}
+
 /* ==== Hidden in Mobile View ==== */
 #update-buttons-desktop,.hidden,#username,#notifications{
     display:none;
