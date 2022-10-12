@@ -13,6 +13,10 @@
     #content {
         grid-area: 2/2/-1/-1;
     }
+    /* ==== GENERAL ==== */
+    h1{
+        margin:0;
+    }
 
     /* ==== HEADER ==== */
    
@@ -34,8 +38,19 @@
         grid-area:2/1/-1/2;
         grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
     }
-    .card{
+
+
+    #project-grid,
+    #announcements-grid,#trending-grid{
+        gap: 10px;
         height:fit-content;
+    }
+    #trending-grid{
+        gap:0;
+    }
+
+    #trending-grid .card{
+        padding:20px 25px;
     }
 
     /* ==== Shown in Desktop View ==== */
