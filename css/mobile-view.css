@@ -78,10 +78,34 @@ button img{
 }
 
 /* ==== SIDEBAR ==== */
-#sidebar{
-    width:100%;
+@media only screen and (max-width:768px) {
+    #sidebar{
+        width:100%;
+        position:absolute;
+        top:0;
+        background-color: rgb(36, 36, 36);
+        height: 100vh;
+        display:grid;
+        grid-template-rows: 20% 50% 30%;
+        align-items:stretch;
+        font-size:2em;
+        justify-items: center;
+    }
+    #sidebar>div{
+        display:grid;
+        text-align: center;
+        
+    }
+    #sidebar>:first-child{
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    #close{
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
 }
-
 /* ==== CONTENT ==== */
 #content{
     margin:5vw 5vw;
@@ -144,7 +168,7 @@ button img{
 }
 
 /* ==== Hidden in Mobile View ==== */
-#update-buttons-desktop,.hidden,#username,#notifications,#greeting{
+#update-buttons-desktop,.hidden,#username,#notifications,#greeting,#sidebar{
     display:none;
 }
 

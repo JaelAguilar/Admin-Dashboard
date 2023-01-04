@@ -2,7 +2,7 @@
     /* ==== LAYOUT ==== */
     #layout{
         display:grid;
-        grid-template: 150px 1fr/20% 1fr;
+        grid-template: fit-content(150px) 1fr/200px 1fr;
     }
     #header {
         grid-area: 1/2/2/-1;
@@ -22,7 +22,7 @@
 
     /* ==== HEADER ==== */
     #header{
-        padding:3% 5% 3% 3%;
+        padding:3% 5% 2% 3%;
         gap:20px;
     }
     #header>div{
@@ -114,7 +114,7 @@
 
     /* ==== Hidden in Desktop View ==== */
     #toggle-sidebar,
-    #update-buttons-mobile {
-        display: none;
+    #update-buttons-mobile,#close {
+        display: none !important;
     }
 }
