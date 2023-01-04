@@ -2,7 +2,7 @@
     /* ==== LAYOUT ==== */
     #layout{
         display:grid;
-        grid-template: 100px 1fr/20% 1fr;
+        grid-template: 150px 1fr/20% 1fr;
     }
     #header {
         grid-area: 1/2/2/-1;
@@ -19,7 +19,37 @@
     }
 
     /* ==== HEADER ==== */
-   
+    #header{
+        padding:3% 5% 3% 3%;
+        gap:20px;
+    }
+    #header>div{
+        display:grid;
+        grid-template-columns:1fr fit-content(100px) !important;
+    }
+    #header>:first-child{
+        gap:50px;
+    }
+    #header-user {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+    #notifications{
+        width:30px;
+        height:30px;
+        border-radius: 50%;
+    }
+    #update-buttons-desktop{
+        display:flex;
+        gap:30px;
+    }
+    #update-buttons-desktop button{
+        padding:5px 20px;
+        min-width:80px;
+        border-radius:20px;
+    }
+
     /* ==== SIDEBAR ==== */
     
     /* ==== CONTENT ==== */
@@ -54,7 +84,7 @@
     }
 
     /* ==== Shown in Desktop View ==== */
-    #sidebar.hidden{
+    #sidebar.hidden,#greeting,#notifications{
         display:block;
     }
 

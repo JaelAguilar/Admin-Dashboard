@@ -30,6 +30,7 @@ button img{
 
 /* ==== HEADER ==== */
 #header{
+    display:grid;
     padding:5% 5vw 5px;
 }
 #header >:first-child{
@@ -143,7 +144,7 @@ button img{
 }
 
 /* ==== Hidden in Mobile View ==== */
-#update-buttons-desktop,.hidden,#username,#notifications{
+#update-buttons-desktop,.hidden,#username,#notifications,#greeting{
     display:none;
 }
 

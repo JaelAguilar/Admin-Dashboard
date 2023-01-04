@@ -5,6 +5,7 @@
     --primaryColor: #a8b4f4;
     --secondaryColor: #a7eba4;
     --cardColor: #ffffff09;
+    --searchColor:rgb(218, 218, 218);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
@@ -43,11 +44,14 @@ h3,h4{
     background-color:var(--secondSurfaceColor);
 }
 #search,#search input{
-    background-color:rgb(218, 218, 218);
+    background-color:var(--searchColor);
 }
 #update-buttons-mobile>button{
     background: var(--secondaryColor);
 }
 #trending-grid .card{
     border-top:1px solid var(--primaryColor);
+}
+#notifications{
+    background-color: var(--primaryColor);
 }
