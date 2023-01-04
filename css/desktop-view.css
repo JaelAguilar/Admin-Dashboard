@@ -16,6 +16,8 @@
     /* ==== GENERAL ==== */
     h1{
         margin:0;
+        font-size:1.6em;
+        font-weight: bold;
     }
 
     /* ==== HEADER ==== */
@@ -45,13 +47,35 @@
         gap:30px;
     }
     #update-buttons-desktop button{
-        padding:5px 20px;
+        padding:10px 20px;
         min-width:80px;
         border-radius:20px;
+        height:fit-content;
+    }
+    #greeting{
+        display:grid;
+        gap:10px;
     }
 
     /* ==== SIDEBAR ==== */
-    
+    #sidebar{
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+        padding-left:15%;
+        padding-top:50px;
+        font-size:1.2em;
+    }
+    #sidebar>:first-child{
+        font-weight: bold;
+        font-size:1.5em;
+    }
+    #sidebar>div{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+
     /* ==== CONTENT ==== */
     #content{
         display:grid;
@@ -84,7 +108,7 @@
     }
 
     /* ==== Shown in Desktop View ==== */
-    #sidebar.hidden,#greeting,#notifications{
+    #notifications{
         display:block;
     }
 
